@@ -36,3 +36,27 @@ venv/
 ## Misc
 *.tmp
 *.temp
+
+## Node / JavaScript specific
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caches and build tools
+.cache/
+.parcel-cache/
+.eslintcache
+.sass-cache/
+
+# Frameworks and tool artifacts
+.next/
+.nuxt/
+.serverless/
+.turbo/
+.vite/
+
+# Misc
+node_repl_history
+*.tgz
